@@ -4,4 +4,4 @@
 
 현재 **자주 하는 질문** 에 대한 페이지가 만들어져 있습니다. 자주 발생하는 문제들에 대한 답변들이 올라와 있으니 참고 바랍니다.
 
-[자주 하는 질문 >](http://yvelta1.github.io/guide/qna.md)
+[자주 하는 질문 >](http://yvelta1.github.io/qna)
