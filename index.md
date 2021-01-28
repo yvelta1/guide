@@ -30,18 +30,22 @@ LG 폴더를 건드리기 전, PC에서 설치 및 설정해주어야 하는 몇
 우선, 잠금을 해제한 후 다이얼에서 5457#*110(폴더 2는 120, 폴더 2S는 120 or 125)를 입력하는 즉시 아래 화면이 불러와집니다.
 
 ![사진](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/cUbwjW/btquR14cFTe/K4KLPXmvuSaIQEGoYouH91/img.png)
+
 그 후, 맨 아래의 **Developer Options**를 선택 후 3번의 **USB 디버깅**으로 진입합니다. USB 디버깅을 켭니다.
 
 > 가끔 재부팅 시, 혹은 일정 시간이 지나면 USB 디버깅이 꺼지는 경우가 있습니다. 컴퓨터와 adb로 연결하여 앱을 설치하거나 다른 명령을 수행하는 경우, 이 기능은 켜져 있어야 합니다.
-> 
+
 ![사진](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/GzGqZ/btquTay721L/TpZLK0neInoK8vXjypzIfK/img.png)
+
 이후, **adb를 적절한 위치에 두었으며, LG USB 드라이버가 설치된** PC와 연결하면 아래와 같은 화면이 뜹니다. **확인**을 눌러주세요. 체크표시는 선택사항입니다.
+
 ![사진](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bFMrlA/btquSpwJldQ/UK39ffhu9kgW1IusIFsbdk/img.png)
 
 그리고, 위에서 언급한 adb 폴더가 C드라이브 최상단에 있다는 가정 하에 아래 명령어를 명령 프롬프트에서 입력합니다.
 
     cd c:/adb
     adb devices
+
 ![사진](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bhDYRD/btquQwKy24n/qpvL19HIKUKh0p7vglbCKk/img.png)
 Y110(120 or 125)로 시작하는 기기가 뜨고, devices라고 뜨면 정상적으로 인식된 것입니다. 아래 과정을 진행해 주세요.
 
